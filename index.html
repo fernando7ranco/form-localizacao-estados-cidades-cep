@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
+		<title>select estados e cidades do brasil</title>
+		
+	</head>
+	<body>
+		<form>
+			
+			<p>
+				Digite o CEP e pressione ENTER para completar seu dados de enderço.<br>
+				<label>Cep:</label>
+				<input type='text' name='cep'  maxlength='8' placeholder='SOMENTE NUMEROS'>
+			</p>
+			
+			<p>
+				<label>Estado:</label>
+				<select name='estado' id='getEstados'  ></select>
+			</p>
+			<p>
+				<label>Cidade:</label>
+				<select name='cidade' id='getCidades'  ></select>
+			</p>
+			
+			<p>
+				<label>Bairro:</label>
+				<input type='text' name='bairro' maxlength='50' placeholder='BAIRRO'>
+			</p>
+			
+			<p>
+				<label>logradouro:</label>
+				<input type='text' name='logradouro'  maxlength='80' placeholder='RUA NUMERO COMPLEMENTO'>
+			</p>
+			
+		</form>
+	</body>
+	
+	<script src="js/jquery_code.js"></script>
+	<script src="js/cidadesEstados.js"></script>
+	<script src="js/cep.js"></script>
+</html>
